@@ -1,0 +1,11 @@
+{
+    "minCarNumber": 1,
+    "maxCarNumber": 30,
+    "categories":[
+        "Most Creative",
+        "Most Scout-Like",
+        "Most Patriotic",
+        "Funniest",
+        "Fastest Looking"
+    ]
+}
