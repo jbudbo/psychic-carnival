@@ -21,7 +21,7 @@
     const tbl = main.getElementsByTagName("table")[0];
     const dataRow = tbl.getElementsByTagName("tbody")[0];
 
-    for (const cat of catJson.categories){
+    for (const cat of catJson.categories) {
         const cleanCat = cat.replace(" ","-");
 
         const catLabel = document.createElement("label");
@@ -32,12 +32,13 @@
         tdCat.appendChild(catLabel);
 
         const input = document.createElement("input");
-        input.type = "number";
+        input.type = "tel";
         input.max = catJson.maxCarNumber;
         input.min = catJson.minCarNumber;
         input.name = cleanCat;
         input.id = cleanCat;
-        input.inputMode = numeric;
+        input.pattern = "[0-9]{1,2}"
+        input.placeholder = "00"
 
         const tdInput = document.createElement("td");
         tdInput.appendChild(input);
