@@ -1,0 +1,11 @@
+{
+    "name":"Pinewood Voting Tally",
+    "short_name": "PVT",
+    "start_url": "index.html",
+    "display": "standalone",
+    "background_color": "#5900b3",
+    "theme_color": "black",
+    "scope": ".",
+    "description": "Award Vote Tallying",
+    "icons": []
+}
