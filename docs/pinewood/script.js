@@ -37,6 +37,7 @@
         input.min = catJson.minCarNumber;
         input.name = cleanCat;
         input.id = cleanCat;
+        input.inputMode = numeric;
 
         const tdInput = document.createElement("td");
         tdInput.appendChild(input);
